@@ -139,12 +139,12 @@
             <label class="form-label">Message</label>
             <textarea class="form-control" v-model="message" rows="5" placeholder="Tell me about your project…"></textarea>
           </div>
-          <div class="text-end">
-            <button type="submit" class="btn-submit" :disabled="isLoading">{{isLoading ? "Sending..." : "Submit"}}</button>
+          <div class="d-flex justify-content-between align-items-center">
+            <button type="submit" class="btn-submit" :disabled="isLoading">
+              {{ isLoading ? "Sending..." : "Submit" }}
+            </button>
+            <div ref="recaptchaContainer"></div>
           </div>
-        </div>
-        <div class="d-flex justify-content-end mt-2">
-           <div ref="recaptchaContainer"></div>
         </div>
    </form>
 </template>
