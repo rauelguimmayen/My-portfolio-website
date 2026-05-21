@@ -357,3 +357,12 @@ footer {
   font-size: 0.75rem;
   color: #DAE2FD;
 }
+.form-footer {
+  display: flex;
+  gap: 20px; 
+  align-items: center;
+}
+.form-footer a i {
+  font-size: 2rem; 
+  color: #333;
+}

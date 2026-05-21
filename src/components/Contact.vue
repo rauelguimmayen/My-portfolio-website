@@ -145,6 +145,10 @@
             </button>
             <div ref="recaptchaContainer"></div>
           </div>
+          <div class="form-footer">
+          <a href="www.linkedin.com/in/rauel-guimmayen-3a3a26169" id="linkedin"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/rauelguimmayen" id="github"><i class="fab fa-github"></i></a>
+          </div>
         </div>
    </form>
 </template>
