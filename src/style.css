@@ -157,6 +157,8 @@ nav.navbar {
   display: inline-block;
   margin-top: 1.5rem;
   transition: all 0.3s ease;
+  margin-left: 10px;
+
 }
 
 .btn-hero:hover {

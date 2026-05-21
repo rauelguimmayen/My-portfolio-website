@@ -13,6 +13,7 @@
 	          Building thoughtful, end-to-end digital experiences — from clean, accessible frontends to resilient backend architectures. Based in the Philippines.
 	        </p>
 	        <a href="#contact" class="btn-hero">Get in touch</a>
+	        <a href="/Rauel_Guimmayen_CV.pdf" class="btn-hero" target="_blank">RESUME</a>
 	      </div>
 	    </div>
 	  </div>
